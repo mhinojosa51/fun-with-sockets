@@ -1,0 +1,25 @@
+{
+  "name": "socket-learn",
+  "version": "1.0.0",
+  "description": "Learn websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+		"start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhinojosa51/fun-with-sockets.git"
+  },
+  "author": "Michael Hinojosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhinojosa51/fun-with-sockets/issues"
+  },
+  "homepage": "https://github.com/mhinojosa51/fun-with-sockets#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "nodemon": "^1.11.0",
+    "socket.io": "^2.0.3"
+  }
+}
